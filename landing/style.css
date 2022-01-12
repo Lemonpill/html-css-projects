@@ -1,0 +1,319 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap'); */
+
+html{
+    font-family: 'Asap', sans-serif;
+}
+body{
+    padding:0;
+    margin:0;
+    background-color: #292F36;
+}
+img{
+    width: 100%;
+}
+section{
+    padding:0;
+    margin:0;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+nav{
+    display: block;
+    width: 100%;
+    position: fixed;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.material-icons.md-48 {
+    font-size: 64px;
+}
+#logo-top{
+    color: #FF6B6B;
+}
+#navbar-container{
+    background-color: #FFFFFF;
+    padding: .8em 1.8em;
+    display: flex;
+    justify-content: space-between;
+}
+#primary-navbar-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.primary-navbar-item{
+    display: inline;
+}
+.primary-navbar-link{
+    font-weight:500;
+    margin-left: 1em;
+}
+.primary-navbar-link:hover{
+    font-weight:600
+}
+.current{
+    font-weight:600
+}
+#secondary-navbar-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.secondary-navbar-item{
+    display: inline;
+}
+.secondary-navbar-link{
+    padding: .2em 1em;
+}
+.secondary-navbar-link-vid{
+    padding: .2em 1em;
+    font-size: .9em;
+    color: #292F36;
+}
+.cta {
+    border: 3px solid #FF6B6B;
+    background-color: #FF6B6B;
+    color: #FFFFFF;
+    border-radius: 5em;
+    font-weight: 600;
+}
+.cta:hover{
+    background-color: #FFFFFF;
+    color: #FF6B6B;
+    transition: .3s;
+}
+#section-1{
+    background-color: #F3F5F6;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section-1-container{
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero-illustration{
+    height: 500px;
+    margin-left: 2em;
+}
+#hero-introduction-container{
+    margin: auto 2em auto 3em;
+}
+#hero-introduction-slogan{
+    color: #292F36;
+    font-size: 1.3em;
+    margin-bottom: .3em;
+}
+#hero-introduction-hook{
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+#hero-cta{
+    border: 3px solid #FF6B6B;
+    padding: .3em 1em;
+    font-weight: bold;
+    color: #FF6B6B;
+    border-radius: 5em;
+    font-size: 1.3em;
+}
+#hero-link-vid{
+    margin-left: 1.5em;
+    color: #292F36;
+}
+#hero-cta:hover{
+    background-color: #FF6B6B;
+    color: #F3F5F6;
+    transition: .3s;
+}
+#section-2{
+    background-color: #FF6B6B;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section-2-container{
+    min-width: 50%;
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 4em;
+}
+.feature-overview{
+    text-transform: none;
+    color: #FFFFFF;
+    padding: 1em 2em;
+    border: 2px solid #FFFFFF;
+    border-radius: 1em;
+    padding-top:auto;
+    padding-bottom: auto;
+}
+.feature-overview:hover {
+    cursor: pointer;
+}
+.feature-overview:hover .overview-icon-container > .overview-icon-outline {
+    background-color: white;
+    color: #FF6B6B;
+    transition: .4s;
+}
+.feature-overview:hover .overview-icon-container > .overview-icon-outline > .overview-icon {
+    transform: scale(1.1);
+}
+.overview-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.overview-icon-outline{
+    border: 2px solid #FFFFFF;
+    padding: .8rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4.3rem;
+    background-color: #FF6B6B;
+}
+.feature-overview-icon{
+    box-sizing: content-box;
+}
+.feature-overview-title{
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    margin:0;
+}
+.feature-overview-content{
+    letter-spacing: .1rem;
+}
+.overview-link{
+    color:white;
+    padding: .3em;
+    border: 2px solid white;
+    border-radius: 5em;
+}
+#section-3{
+    background-color: transparent;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section-3-container{
+    min-width: 50%;
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 4rem;
+    padding: 7rem
+}
+#section-3-heading{
+    color: white;
+    letter-spacing: .2rem;
+    font-weight: 500;
+    font-size: 3rem;
+    margin: 0;
+    padding:0;
+}
+#contact-form-container{
+    border: none;
+}
+#email{
+    display: block;
+    width: 100%;
+    line-height: 1.3rem;
+    font-size: 1.3rem;
+    padding: .6rem 1.2rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    border-style: none;
+    border-radius: .4rem;
+    color: #292F36;
+    border: 1px solid lightgray;
+    letter-spacing: .08rem;
+    font-weight: 400;
+    background-color: #F3F5F6;
+}
+#email::placeholder{
+    line-height: 1.3rem;
+    font-size: 1.3rem;
+    color: lightgray;
+}
+#fullname{
+    display: block;
+    width: 100%;
+    line-height: 1.3rem;
+    font-size: 1.3rem;
+    padding: .6rem 1.2rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    border-style: none;
+    border-radius: .4rem;
+    color: #292F36;
+    border: 1px solid lightgray;
+    letter-spacing: .08rem;
+    font-weight: 400;
+    background-color: #F3F5F6;
+}
+#fullname::placeholder{
+    line-height: 1.3rem;
+    font-size: 1.3rem;
+    color: lightgray;
+}
+#content {
+    resize: none;
+    display: block;
+    width: 100%;
+    line-height: 1.3rem;
+    font-size: 1.3rem;
+    padding: .6rem 1.2rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    border-style: none;
+    border-radius: .4rem;
+    color: #292F36;
+    border: 1px solid lightgray;
+    letter-spacing: .05rem;
+    font-weight: 400;
+    background-color: #F3F5F6;
+}
+#content::placeholder{
+    font-family: 'Asap', sans-serif;
+    line-height: 1.3rem;
+    font-size: 1.3rem;
+    color: lightgray;
+}
+#map{
+    border-radius: .4rem;
+    border-style: none;
+}
+#submit-question{
+    border-radius: .4rem;
+    border-style: none;
+    font-family: 'Asap', sans-serif;
+    font-size: 1.3rem;
+    background-color: #00BFB2;
+    border: 2px solid #00BFB2;
+    color: white;
+    width: 100%;
+}
+#submit-question:hover{
+    background-color: #00B8AB;
+    cursor: pointer;
+    transition: .3s;
+}
+.send-icon{
+    margin: .6rem .13rem;
+}

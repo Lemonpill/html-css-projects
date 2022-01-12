@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Landing page</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="navbar-container">
+            <div id="logo-container">
+                <a id="logo-link" href="#">conce.<span id="logo-top">top</span></a>
+            </div>
+            <ul id="primary-navbar-list">
+                <li class="primary-navbar-item">
+                    <a class="primary-navbar-link current" href="#">Home</a>
+                </li>
+                <li class="primary-navbar-item">
+                    <a class="primary-navbar-link" href="#section-2">Services</a>
+                </li>
+                <li class="primary-navbar-item">
+                    <a class="primary-navbar-link" href="#section-3">Contact us</a>
+                </li>
+            </ul>
+            <ul id="secondary-navbar-list">
+                <li class="secondary-navbar-item">
+                    <a class="secondary-navbar-link cta" href="#">Try for free</a>
+                </li>
+                <li class="secondary-navbar-item">
+                    <a class="secondary-navbar-link-vid" href="#">Watch demo</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="section-1">
+        <div id="section-1-container">
+            <div id="hero-introduction-container">
+                <div id="hero-introduction">
+                    <p id="hero-introduction-slogan">
+                        It's very compelling to
+                    </p>
+                    <h1 id="hero-introduction-hook">
+                        Buy our products
+                    </h1>
+                </div>
+                <div id="hero-introduction-actions">
+                    <a id="hero-cta" href="#">Try for free</a>
+                    <a href="#" id="hero-link-vid">Or watch demo</a>
+                </div>
+            </div>
+            <div id="hero-illustration-container">
+                <img id="hero-illustration" src="/landing/resources/hero-illustration.svg" alt="main illustration">
+            </div>
+        </div>
+    </section>
+    <section id="section-2">
+        <div id="section-2-container">
+            <div class="feature-overview">
+                <div class="overview-icon-container">
+                    <div class="overview-icon-outline">
+                        <span class="material-icons md-48 overview-icon">
+                            auto_awesome_mosaic
+                        </span>
+                    </div>
+                </div>
+                <h2 class="feature-overview-title">Simple design</h2>
+                <p class="feature-overview-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam expedita fugit a consectetur, odio iusto quae omnis, consequatur perferendis corrupti sapiente earum voluptatem libero praesentium quo nobis doloremque. Repudiandae, laudantium!</p>
+            </div>
+            <div class="feature-overview">
+                <div class="overview-icon-container">
+                    <div class="overview-icon-outline">
+                        <span class="material-icons md-48 overview-icon">
+                            bolt
+                        </span>
+                    </div>
+                </div>
+                <h2 class="feature-overview-title">High performance</h2>
+                <p class="feature-overview-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam expedita fugit a consectetur, odio iusto quae omnis, consequatur perferendis corrupti sapiente earum voluptatem libero praesentium quo nobis doloremque. Repudiandae, laudantium!</p>
+            </div>
+            <div class="feature-overview">
+                <div class="overview-icon-container">
+                    <div class="overview-icon-outline">
+                        <span class="material-icons md-48 overview-icon">
+                            near_me
+                        </span>
+                    </div>
+                </div>
+                <h2 class="feature-overview-title">Easy navigation</h2>
+                <p class="feature-overview-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam expedita fugit a consectetur, odio iusto quae omnis, consequatur perferendis corrupti sapiente earum voluptatem libero praesentium quo nobis doloremque. Repudiandae, laudantium!</p>
+            </div>
+        </div>
+    </section>
+    <section id="section-3">
+        <div id="section-3-container">
+            <fieldset id="contact-form-container">
+                <form id="contact-form" action="#">
+                    <input type="text" name="fullname" id="fullname" placeholder="Your full name" maxlength="100" required>
+                    <input type="email" name="email" id="email" placeholder="Your email" maxlength="100" required>
+                    <textarea name="content" id="content" cols="30" rows="10" placeholder="Please describe your question" maxlength="500" required></textarea>
+                    <button type="submit" id="submit-question">
+                        <span class="material-icons md-36 send-icon">
+                            send
+                        </span>
+                    </button>
+                </form>
+            </fieldset>
+            <div id="map-container">
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d965539.4055842345!2d-73.67542086273951!3d19.035653413633742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb6c6f37fcbbb11%3A0xb51438b24c54f6d3!2sHaiti!5e0!3m2!1sen!2sil!4v1641945629335!5m2!1sen!2sil" width="600" height="450" allowfullscreen="true" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    <footer style="color: white;" align="center">
+        Copyright (c) 2022 Lemonpill
+    </footer>
+</body>
+</html>
