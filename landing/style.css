@@ -164,12 +164,17 @@ footer{
 .feature-overview:hover {
     cursor: pointer;
 }
-.feature-overview:hover .overview-icon-container > .overview-icon-outline {
+.feature-overview:hover
+.overview-icon-container >
+.overview-icon-outline {
     background-color: white;
     color: #FF6B6B;
     transition: .4s;
 }
-.feature-overview:hover .overview-icon-container > .overview-icon-outline > .overview-icon {
+.feature-overview:hover
+.overview-icon-container >
+.overview-icon-outline >
+.overview-icon {
     transform: scale(1.1);
 }
 .overview-icon-container{
