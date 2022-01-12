@@ -28,6 +28,9 @@ a{
     text-decoration: none;
     color: black;
 }
+footer{
+    padding: 1rem 0;
+}
 .material-icons.md-48 {
     font-size: 64px;
 }
@@ -140,16 +143,15 @@ a{
 #section-2{
     background-color: #FF6B6B;
     min-height: 100vh;
+    max-height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 #section-2-container{
-    min-width: 50%;
-    max-width: 80%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 4em;
+    display: flex;
+    border: 1px solid red;
+    display: flex;
+    align-items: stretch;
 }
 .feature-overview{
     text-transform: none;
@@ -157,8 +159,7 @@ a{
     padding: 1em 2em;
     border: 2px solid #FFFFFF;
     border-radius: 1em;
-    padding-top:auto;
-    padding-bottom: auto;
+    margin:10rem 3rem
 }
 .feature-overview:hover {
     cursor: pointer;
